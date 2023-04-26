@@ -3,7 +3,7 @@ body {
   background-color: black;
 }
 
-.nav-link {
+.nav-link, .form-label {
   font-size: 20px;
 }
 
@@ -11,7 +11,7 @@ body {
   height: 200px;
 }
 
-.card-body {
+.card-body, .btn, footer {
   background-color: #c5e2f6;
 }
 

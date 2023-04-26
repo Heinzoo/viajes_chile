@@ -14,9 +14,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
   <!-- Mi Hoja CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
-  
 </head>
 <body>
   <!-- Barra de Navegación -->
@@ -42,7 +45,7 @@
             <a class="nav-link text-white" href="#destacados">Destacados</a>
           </li>
           <li class="nav-item text-center">
-            <a class="nav-link text-white" href="#">Contacto</a>
+            <a class="nav-link text-white" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
@@ -77,10 +80,10 @@
   <!-- Destacados -->
   <div class="container py-5" id="destacados">
     <h2 class="text-center text-white py-3">
-      Destacados
+      DESTACADOS
     </h2>
     <div class="row row-cols-1 row-cols-md-4 g-4">
-      <div class="col">
+      <div class="col px-4">
         <div class="card">
           <img src="assets/img/card1.jpg" class="card-img-top">
           <div class="card-body">
@@ -94,7 +97,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col px-4">
         <div class="card">
           <img src="assets/img/card2.jpg" class="card-img-top">
           <div class="card-body">
@@ -108,7 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col px-4">
         <div class="card">
           <img src="assets/img/card3.jpg" class="card-img-top">
           <div class="card-body">
@@ -122,7 +125,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col px-4">
         <div class="card">
           <img src="assets/img/card4.jpg" class="card-img-top">
           <div class="card-body">
@@ -138,7 +141,51 @@
       </div>
     </div>
   </div>
-  Formulario
+  <!-- Contacto -->
+  <div class="container pt-3 pb-5" id="contacto">
+    <h2 class="text-center text-white py-3">
+      CONTACTO
+    </h2>
+    <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label text-white">Nombre</label>
+      <input type="text" class="form-control form-control-lg" id="nombre">
+    </div>
+    <div class="mb-3">
+      <label for="asunto" class="form-label text-white">Asunto</label>
+      <input type="text" class="form-control form-control-l" id="asunto">
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label text-white">Mensaje</label>
+      <textarea class="form-control form-control-l" id="mensaje" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg px-5">Enviar</button>
+  </form>
+  </div>
+  <!-- Footer -->
+  <footer class="py-3">
+    <div class="container d-flex justify-content-between">
+      <span class="ps-5" style="font-size: 25px;">VIAJES CHILE</span>
+      <div class="pe-5">
+        <span class="mx-2">
+          <i class="fab fa-github fa-2x"></i>
+        </span>
+        <span class="mx-2">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </span>
+        <span class="mx-2">
+          <i class="fab fa-twitter fa-2x"></i>
+        </span>
+        <span class="mx-2">
+          <i class="fab fa-facebook fa-2x"></i>
+        </span> 
+      </div>
+    </div>
+
+
+
+    
+  </footer>
   <!-- Boostrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
