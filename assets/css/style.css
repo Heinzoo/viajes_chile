@@ -3,6 +3,11 @@ body {
   background-color: black;
 }
 
+.carousel-item img {
+  min-height: 600px;
+  object-fit: cover;
+}
+
 .nav-link, .form-label {
   font-size: 20px;
 }
@@ -17,4 +22,8 @@ body {
 
 .card-text {
   text-align: justify;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-success);
 }
